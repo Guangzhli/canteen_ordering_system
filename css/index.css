@@ -1,0 +1,126 @@
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #017E5C;
+    line-height: 50px;
+    color: #fff;
+}
+.city{
+    width: 65px;
+    height: 50px;
+    background-color: #F2BD47;
+    font-size: 14px;
+}
+.search{
+    width: 40px;
+    height: 50px;
+}
+.title{
+    flex-grow: 1;
+    height: 50px;
+    font-size: 18px;
+}
+.city>a{
+    color: #fff;
+    font-size: 12px;
+}
+.search>i{
+    font-size: 20px;
+}
+.banner{
+    position: auto;
+    display: flex;
+    justify-content: center; 
+}
+.banner>img{
+    width: 90.5%;
+    height: 450px;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 5%;
+}
+.btn>li{
+    height: 100%;
+    width: 18%;
+    background-color: #017E5C;
+}
+
+.message{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: #eee;
+    color: #010000;
+    font-size: 14px;
+    text-align: left;
+    line-height: 30px;
+}
+.message>i{
+    color: #1D8B6D;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.message>span{
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.menu>div{
+    flex-grow: 1;
+}
+.menu img{
+    width: 45px;
+    margin: 5px 0 10px;
+}
+.menu a{
+    color: #a6a6a6;
+    font-size: 14px;
+}
+.menu-active>a{
+    color: #017E5C;
+}
+
+.ct-title{
+    width: 100%;
+    height: 25px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-color: #eee;
+    text-align: left;
+    line-height: 25px;
+    font-size: 14px;
+    color: #017E5C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
